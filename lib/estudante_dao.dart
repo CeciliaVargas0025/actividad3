@@ -26,7 +26,8 @@ class EstudanteDao {
     );
   }
 
-  
+
+
   Future<void> deleteEstudante(int index) async {
     final db = await _dbHelper.database;
     await db.delete(
